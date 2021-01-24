@@ -4,4 +4,4 @@ This coding project aims at identifying the local railway transportation network
 
 The project is available as RMarkdown-notebook and as .html for quick access.
 
-The data on the railway networks are collected manually and will be expanded in the future.
+The data on the railway networks are collected manually and will be expanded in the future. This is a functional first release with a still incomplete data basis and preliminary findings.
