@@ -2,6 +2,6 @@
 
 This coding project aims at identifying the local railway transportation networks in German cities that are most vulnurable to punctual stress. The project is entirely motivated by curiosity and a tiny bit of grief about being late to work.
 
-The project is available as RMarkdown-notebook and as .html for quick access. It is best to start at the .html.
+The project is available as RMarkdown-notebook.
 
 The data on the railway networks are collected manually and will be expanded in the future. This is a functional first release with a still incomplete data basis and preliminary findings.
