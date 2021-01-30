@@ -4,6 +4,7 @@ author: "Richard Klimaczewski (wtdat)"
 output:
   html_document:
     df_print: paged
+    highlight: zenburn
   html_notebook: default
   pdf_document: default
 ---
@@ -384,7 +385,7 @@ Bridges are edges that increase the number of components in a network when they 
 A second coefficient named *wCO* is introduced to deal with cut offs at the fringes of the network by simply multiplying the first coefficient with an edge weight. Initially, I was using the number of lines on an edge as a simplistic weight. But I replaced it later with the slightly more sophisticated weight *bCO*, which is derived from the well in network analysis established measure of in-betweeness-centrality. This emphasizes the importance of central edges and decreases the impact of the fringe areas, but it comes at the cost of not having a fixed maximum value for this coefficient. The coefficient *wCO* cannot be compared across different networks, but it is useful to assess the damage to a particular network more precisely. Later on, when visualizing the networks, I am using the mean of *wCO* + *k\*standard deviations* for the color palette to indicate the most vulnerable edges of the networks.
 
 ```{r find bridges}
-# Take a network object, delete an edge and check, if its number of components increases. If it does, measure the size of the cut-off.
+# Take a network object, delete an edge and check if its number of components increases. If it does, measure the size of the cut-off.
 nvn.bridgeImpact <- function(net){
        
        c.cnt <- components(net)
