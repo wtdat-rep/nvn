@@ -176,6 +176,7 @@ nvn.splitdf <- function(df, splitString, splitCol = "City"){
               name <- assign(name, df2)
               list.df[[i]] <- name
        }
+       
        return(list.df)
        
 }
@@ -194,6 +195,7 @@ nvn.getNodes <- function(df, ID.Source = ID.Source, ID.Target = ID.Target,
        df.nvnNodes <- distinct(nodes.tempDf, .keep_all = T)   
        names(df.nvnNodes)[1] <- "ID.Node"
        names(df.nvnNodes)[2] <- "Name.Node"
+       
        return(df.nvnNodes)
        
 }
@@ -210,6 +212,7 @@ nvn.cityNodes <- function(cityList = "cityList", splitString, ID.Source = "ID.So
                      Name.Source = Name.Source, Name.Target = Name.Target)
               list.nodes[[i]] <- temp
        }
+       
        return(list.nodes)
        
 }
@@ -239,6 +242,7 @@ nvn.getEdges <- function(df, ID.Source = ID.Source, ID.Target = ID.Target){
        df.nvnEdges <- edges.spread %>% 
                      group_by(ID.Source, ID.Target) %>% 
                      summarise(Weight = n())
+       
        return(df.nvnEdges)
        
 }
@@ -248,12 +252,14 @@ nvn.cityEdges <- function(cityList = "cityList", splitString, ID.Source = "ID.So
                      ID.Target = "ID.Target"){
        
        list.edges <- list()
+       
        for(i in seq_along(splitString)){
               df <- cityList[[i]]
               temp <- nvn.getEdges(df, ID.Source = ID.Source, ID.Target = ID.Target)
               temp$City <- rep(splitString[i], nrow(temp))
               list.edges[[i]] <- temp
        }
+       
        return(list.edges)
        
 }
@@ -280,6 +286,7 @@ nvn.distinctEdges <- function(list, ID.Source = "ID.Source", ID.Target = "ID.Tar
        for(i in seq_along(list2)){
               list2[[i]] <- list[[i]] %>% distinct(ID.Source, ID.Target, .keep_all = TRUE)
        }
+       
        return(list2)
        
 }
@@ -289,6 +296,7 @@ nvn.rmInverts <- function(df, col1, col2){
        
        df2 <- df
        df2$discard <- rep(FALSE, nrow(df2))
+       
        for(i in 1:nrow(df2)){
               val1 <- df2[[i, col1]]
               val2 <- df2[[i, col2]]
@@ -299,8 +307,10 @@ nvn.rmInverts <- function(df, col1, col2){
                      }
               }
        }
+       
        df2 <- df2[df2$discard == FALSE,]
        df2 <- df2[,colnames(df2) != "discard"]
+       
        return(df2)
        
 }
@@ -309,9 +319,11 @@ nvn.rmInverts <- function(df, col1, col2){
 nvn.rmInvertsOnList <- function(list, col1 = "ID.Source", col2 = "ID.Target"){
        
        list2 <- list
+       
        for(i in seq_along(list2)){
               list2[[i]] <- nvn.rmInverts(list[[i]], col1 = col1, col2 = col2)
        }
+       
        return(list2)
        
 }
@@ -345,10 +357,12 @@ nvn.betweennessEdges <- function(net, df.edges, node1 = node1, node2 = node2, re
 nvn.betweennessEdgesList <- function(net, list, node1 = "ID.Source", node2 = "ID.Target", rescale = FALSE){
        
        list2 <- list
+       
        for(i in seq_along(list2)){
               list2[[i]]$bCO <- nvn.betweennessEdges(net[[i]], list[[i]], node1 = node1, 
                                    node2 = node2, rescale = rescale)
        }
+       
        return(list2)
        
 }
@@ -415,9 +429,11 @@ nvn.bridgeImpact <- function(net){
 nvn.getBridgeImpact <- function(list.edg, list.net){
        
      list2 <- list.edg
+     
      for(i in seq_along(list2)){
           list2[[i]] <- cbind(as.data.frame(list2[[i]]), nvn.bridgeImpact(list.net[[i]]))
      }
+     
      return(list2)
      
 }
@@ -426,9 +442,11 @@ nvn.getBridgeImpact <- function(list.edg, list.net){
 nvn.weightedCutOffs <- function(list, col1 = "Weight", col2 = "cut.offRel"){
        
        list2 <- list
+       
        for(i in seq_along(list2)){
               list2[[i]]$weightedCutOff <- unlist(list2[[i]][,col1] * list2[[i]][,col2])
        }
+       
        return(list2)
        
 }
@@ -452,12 +470,16 @@ list.results <- nvn.weightedCutOffs(list.results, col1 = "bCO")
 # Hidden in published notebook. Use only when troubleshooting.
 nvn.importListResults <- function(input_dir = "data/", input_file = "list.results[",
                                    num = 7, ending = "].csv"){
+       
      list.results <- list()
+     
      for(i in 1:num){
           input_string <- paste0(input_dir, input_file, i, ending)
           list.results[[i]] <- read_csv2(input_string, col_names = TRUE)
      }
+     
      return(list.results)
+     
 }
 
 list.results <- nvn.importListResults(num = length(unique(df.nvnSource$City)))
@@ -490,6 +512,7 @@ nvn.gatherResults <- function(list){
                      df <- rbind(df, list[[i]])
               }
        }
+       
        return(df)
        
 }
@@ -573,6 +596,7 @@ nvn.topNcutOffs1 <- function(list, listindex, n, col1 = "ID.Source", col2 = "ID.
        df <- list[[listindex]]
        df <- df[order(df[,col3], decreasing = TRUE),]
        df2 <- df[1:n, c(col1, col2, col3)]
+       
        return(df2)
        
 }
@@ -582,6 +606,7 @@ nvn.topNcutOffs2 <- function(list, listindex, n, col1 = "ID.Source", col2 = "ID.
        df <- list[[listindex]]
        df <- df[order(df[,col3], decreasing = TRUE),]
        df2 <- df[1:n, c(col1, col2, col3)]
+       
        return(df2)
        
 }
@@ -655,6 +680,7 @@ nvn.sortIndex <- function(list, df){
              newList <- c(newList, as.integer(index))
        }
        df2 <- data.frame(newList, oldList)
+       
        return(df2)
        
 }
@@ -666,6 +692,7 @@ nvn.sortList <- function(list, df.sort){
        for(i in seq_along(list)){
               list2[[df.sort[i,1]]] <- list[[i]]
        }
+       
        return(list2)
        
 }
@@ -903,7 +930,7 @@ This is the dashboard-style format I have chosen for the presentation of the res
 
 Everything is in place now. My sample is still incomplete, but lets have a look. First, the tabular form of the results:
 
-```{r table, echo=TRUE}
+```{r table, echo=FALSE}
 df.summary <- df.results %>% 
        group_by(City) %>% 
        summarise(network.size = max(c1.size),
@@ -919,6 +946,8 @@ df.summary <- df.results %>%
        add_column(. , Rank = 1:nrow(.), .before = "City")
 
 df.summary <- nvn.round_df(df.summary, 4)
+
+knitr::kable(df.summary, format = "html") %>% kable_styling(full_width = FALSE)
 ```
 
 The higher the rank, the higher the vulnurability of the network. The current champion of vulnurability is the city of Potsdam. The result matches my real world knowledge of the place. The most probelmatic edge in the network is close to a single (and quite steep) bridge right next to the main station. If something happens there, the city will be split into two (in terms of public transportation). The city I was being in late for work ranks also quiete high, but not as high as I would have expected.
