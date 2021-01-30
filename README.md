@@ -1,4 +1,4 @@
-# nvn v01 - exploring the resilience of German cities railway networks
+# nvn v01 - exploring the resilience of railway networks in German cities
 
 This coding project aims at identifying the local railway transportation networks in German cities that are most vulnerable to punctual stress. The project is entirely motivated by curiosity and a tiny bit of grief about being late to work.
 
