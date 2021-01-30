@@ -331,145 +331,6 @@ H0179;Großer Hillen;H0180;Tiergarten;5;yellow;Hannover;Tram;1;bidirektional;int
 H0180;Tiergarten;H0181;Ostfeldstr.;5;yellow;Hannover;Tram;1;bidirektional;internal;NA;pre 2020-11-30
 H0181;Ostfeldstr.;H0182;Königsberger Ring;5;yellow;Hannover;Tram;1;bidirektional;internal;NA;pre 2020-11-30
 H0182;Königsberger Ring;H0195;Anderten;5;yellow;Hannover;Tram;1;bidirektional;internal;NA;pre 2020-11-30
-J0001;Zwätzen, Schleife;J0002;Zwätzen;1;yellow;Jena;Tram;1;bidirektional;internal;NA;pre 2020-11-30
-J0002;Zwätzen;J0003;Löbstedt;1;yellow;Jena;Tram;1;bidirektional;internal;NA;pre 2020-11-30
-J0003;Löbstedt;J0004;Naumburger Str.;1;yellow;Jena;Tram;1;bidirektional;internal;NA;pre 2020-11-30
-J0004;Naumburger Str.;J0005;Stifterstr.;1;yellow;Jena;Tram;1;bidirektional;internal;NA;pre 2020-11-30
-J0005;Stifterstr.;J0006;Altenburger Str.;1;yellow;Jena;Tram;1;bidirektional;internal;NA;pre 2020-11-30
-J0006;Altenburger Str.;J0007;An der Eule;1;yellow;Jena;Tram;1;bidirektional;internal;NA;pre 2020-11-30
-J0007;An der Eule;J0008;Kieshügel;1;yellow;Jena;Tram;1;bidirektional;internal;NA;pre 2020-11-30
-J0008;Kieshügel;J0009;Scharnhorststr.;1;yellow;Jena;Tram;1;bidirektional;internal;NA;pre 2020-11-30
-J0009;Scharnhorststr.;J0010;Nordschule;1;yellow;Jena;Tram;1;bidirektional;internal;NA;pre 2020-11-30
-J0010;Nordschule;J0011;Spittelplatz;1;yellow;Jena;Tram;1;bidirektional;internal;NA;pre 2020-11-30
-J0011;Spittelplatz;J0012;Universität;1;yellow;Jena;Tram;1;bidirektional;internal;NA;pre 2020-11-30
-J0012;Universität;J0013;Stadtzentrum;1;yellow;Jena;Tram;1;bidirektional;internal;NA;pre 2020-11-30
-J0001;Zwätzen, Schleife;J0002;Zwätzen;4;red;Jena;Tram;1;bidirektional;internal;NA;pre 2020-11-30
-J0002;Zwätzen;J0003;Löbstedt;4;red;Jena;Tram;1;bidirektional;internal;NA;pre 2020-11-30
-J0003;Löbstedt;J0004;Naumburger Str.;4;red;Jena;Tram;1;bidirektional;internal;NA;pre 2020-11-30
-J0004;Naumburger Str.;J0005;Stifterstr.;4;red;Jena;Tram;1;bidirektional;internal;NA;pre 2020-11-30
-J0005;Stifterstr.;J0006;Altenburger Str.;4;red;Jena;Tram;1;bidirektional;internal;NA;pre 2020-11-30
-J0006;Altenburger Str.;J0007;An der Eule;4;red;Jena;Tram;1;bidirektional;internal;NA;pre 2020-11-30
-J0007;An der Eule;J0008;Kieshügel;4;red;Jena;Tram;1;bidirektional;internal;NA;pre 2020-11-30
-J0008;Kieshügel;J0009;Scharnhorststr.;4;red;Jena;Tram;1;bidirektional;internal;NA;pre 2020-11-30
-J0009;Scharnhorststr.;J0010;Nordschule;4;red;Jena;Tram;1;bidirektional;internal;NA;pre 2020-11-30
-J0010;Nordschule;J0011;Spittelplatz;4;red;Jena;Tram;1;bidirektional;internal;NA;pre 2020-11-30
-J0011;Spittelplatz;J0012;Universität;4;red;Jena;Tram;1;bidirektional;internal;NA;pre 2020-11-30
-J0012;Universität;J0013;Stadtzentrum;4;red;Jena;Tram;1;bidirektional;internal;NA;pre 2020-11-30
-J0001;Zwätzen, Schleife;J0002;Zwätzen;34;light brown;Jena;Tram;2;bidirektional;internal;NA;pre 2020-11-30
-J0002;Zwätzen;J0003;Löbstedt;34;light brown;Jena;Tram;2;bidirektional;internal;NA;pre 2020-11-30
-J0003;Löbstedt;J0004;Naumburger Str.;34;light brown;Jena;Tram;2;bidirektional;internal;NA;pre 2020-11-30
-J0004;Naumburger Str.;J0005;Stifterstr.;34;light brown;Jena;Tram;2;bidirektional;internal;NA;pre 2020-11-30
-J0005;Stifterstr.;J0006;Altenburger Str.;34;light brown;Jena;Tram;2;bidirektional;internal;NA;pre 2020-11-30
-J0006;Altenburger Str.;J0007;An der Eule;34;light brown;Jena;Tram;2;bidirektional;internal;NA;pre 2020-11-30
-J0007;An der Eule;J0008;Kieshügel;34;light brown;Jena;Tram;2;bidirektional;internal;NA;pre 2020-11-30
-J0008;Kieshügel;J0009;Scharnhorststr.;34;light brown;Jena;Tram;2;bidirektional;internal;NA;pre 2020-11-30
-J0009;Scharnhorststr.;J0010;Nordschule;34;light brown;Jena;Tram;2;bidirektional;internal;NA;pre 2020-11-30
-J0010;Nordschule;J0011;Spittelplatz;34;light brown;Jena;Tram;2;bidirektional;internal;NA;pre 2020-11-30
-J0011;Spittelplatz;J0012;Universität;34;light brown;Jena;Tram;2;bidirektional;internal;NA;pre 2020-11-30
-J0012;Universität;J0013;Stadtzentrum;34;light brown;Jena;Tram;2;bidirektional;internal;NA;pre 2020-11-30
-J0014;Jena-Ost;J0015;Löbichauer Str.;2;brown;Jena;Tram;1;bidirektional;internal;NA;pre 2020-11-30
-J0015;Löbichauer Str.;J0016;An der Trebe;2;brown;Jena;Tram;1;bidirektional;internal;NA;pre 2020-11-30
-J0016;An der Trebe;J0017;Jenzigweg;2;brown;Jena;Tram;1;bidirektional;internal;NA;pre 2020-11-30
-J0017;Jenzigweg;J0018;Ostschule;2;brown;Jena;Tram;1;bidirektional;internal;NA;pre 2020-11-30
-J0018;Ostschule;J0019;Schlippenstraße;2;brown;Jena;Tram;1;bidirektional;internal;NA;pre 2020-11-30
-J0019;Schlippenstraße;J0020;Geschwister-Scholl-Str.;2;brown;Jena;Tram;1;bidirektional;internal;NA;pre 2020-11-30
-J0020;Geschwister-Scholl-Str.;J0021;Steinweg;2;brown;Jena;Tram;1;bidirektional;internal;NA;pre 2020-11-30
-J0021;Steinweg;J0013;Stadtzentrum;2;brown;Jena;Tram;1;bidirektional;internal;NA;pre 2020-11-30
-J0014;Jena-Ost;J0015;Löbichauer Str.;33;dark yellow;Jena;Tram;2;bidirektional;internal;NA;pre 2020-11-30
-J0015;Löbichauer Str.;J0016;An der Trebe;33;dark yellow;Jena;Tram;2;bidirektional;internal;NA;pre 2020-11-30
-J0016;An der Trebe;J0017;Jenzigweg;33;dark yellow;Jena;Tram;2;bidirektional;internal;NA;pre 2020-11-30
-J0017;Jenzigweg;J0018;Ostschule;33;dark yellow;Jena;Tram;2;bidirektional;internal;NA;pre 2020-11-30
-J0018;Ostschule;J0019;Schlippenstraße;33;dark yellow;Jena;Tram;2;bidirektional;internal;NA;pre 2020-11-30
-J0019;Schlippenstraße;J0020;Geschwister-Scholl-Str.;33;dark yellow;Jena;Tram;2;bidirektional;internal;NA;pre 2020-11-30
-J0020;Geschwister-Scholl-Str.;J0021;Steinweg;33;dark yellow;Jena;Tram;2;bidirektional;internal;NA;pre 2020-11-30
-J0021;Steinweg;J0013;Stadtzentrum;33;dark yellow;Jena;Tram;2;bidirektional;internal;NA;pre 2020-11-30
-J0022;Ernst-Abbe-Platz;J0013;Stadtzentrum;5;pink;Jena;Tram;1;bidirektional;internal;NA;pre 2020-11-30
-J0022;Ernst-Abbe-Platz;J0013;Stadtzentrum;33;dark yellow;Jena;Tram;2;bidirektional;internal;NA;pre 2020-11-30
-J0022;Ernst-Abbe-Platz;J0013;Stadtzentrum;35;orange;Jena;Tram;2;bidirektional;internal;NA;pre 2020-11-30
-J0013;Stadtzentrum;J0023;Paradiesbahnhof;4;red;Jena;Tram;1;bidirektional;internal;NA;pre 2020-11-30
-J0013;Stadtzentrum;J0023;Paradiesbahnhof;5;pink;Jena;Tram;1;bidirektional;internal;NA;pre 2020-11-30
-J0013;Stadtzentrum;J0023;Paradiesbahnhof;1;yellow;Jena;Tram;1;bidirektional;internal;NA;pre 2020-11-30
-J0013;Stadtzentrum;J0023;Paradiesbahnhof;35;orange;Jena;Tram;2;bidirektional;internal;NA;pre 2020-11-30
-J0013;Stadtzentrum;J0024;Paradiesbahnhof West;2;brown;Jena;Tram;1;bidirektional;internal;NA;pre 2020-11-30
-J0013;Stadtzentrum;J0024;Paradiesbahnhof West;34;light brown;Jena;Tram;2;bidirektional;internal;NA;pre 2020-11-30
-J0023;Paradiesbahnhof;J0025;Jenertal;4;red;Jena;Tram;1;bidirektional;internal;NA;pre 2020-11-30
-J0023;Paradiesbahnhof;J0025;Jenertal;5;pink;Jena;Tram;1;bidirektional;internal;NA;pre 2020-11-30
-J0023;Paradiesbahnhof;J0025;Jenertal;1;yellow;Jena;Tram;1;bidirektional;internal;NA;pre 2020-11-30
-J0023;Paradiesbahnhof;J0025;Jenertal;35;orange;Jena;Tram;2;bidirektional;internal;NA;pre 2020-11-30
-J0025;Jenertal;J0026;Sportforum;4;red;Jena;Tram;1;bidirektional;internal;NA;pre 2020-11-30
-J0025;Jenertal;J0026;Sportforum;5;pink;Jena;Tram;1;bidirektional;internal;NA;pre 2020-11-30
-J0025;Jenertal;J0026;Sportforum;1;yellow;Jena;Tram;1;bidirektional;internal;NA;pre 2020-11-30
-J0025;Jenertal;J0026;Sportforum;35;orange;Jena;Tram;2;bidirektional;internal;NA;pre 2020-11-30
-J0026;Sportforum;J0027;Sparkassen Arena;4;red;Jena;Tram;1;bidirektional;internal;NA;pre 2020-11-30
-J0026;Sportforum;J0027;Sparkassen Arena;5;pink;Jena;Tram;1;bidirektional;internal;NA;pre 2020-11-30
-J0026;Sportforum;J0027;Sparkassen Arena;1;yellow;Jena;Tram;1;bidirektional;internal;NA;pre 2020-11-30
-J0026;Sportforum;J0027;Sparkassen Arena;35;orange;Jena;Tram;2;bidirektional;internal;NA;pre 2020-11-30
-J0027;Sparkassen Arena;J0028;Burgaupark;4;red;Jena;Tram;1;bidirektional;internal;NA;pre 2020-11-30
-J0027;Sparkassen Arena;J0028;Burgaupark;5;pink;Jena;Tram;1;bidirektional;internal;NA;pre 2020-11-30
-J0027;Sparkassen Arena;J0028;Burgaupark;1;yellow;Jena;Tram;1;bidirektional;internal;NA;pre 2020-11-30
-J0027;Sparkassen Arena;J0028;Burgaupark;35;orange;Jena;Tram;2;bidirektional;internal;NA;pre 2020-11-30
-J0028;Burgaupark;J0029;Lobeda;1;yellow;Jena;Tram;1;bidirektional;internal;NA;pre 2020-11-30
-J0028;Burgaupark;J0029;Lobeda;5;pink;Jena;Tram;1;bidirektional;internal;NA;pre 2020-11-30
-J0028;Burgaupark;J0029;Lobeda;34;light brown;Jena;Tram;2;bidirektional;internal;NA;pre 2020-11-30
-J0029;Lobeda;J0030;Platanenstr.;5;pink;Jena;Tram;1;bidirektional;internal;NA;pre 2020-11-30
-J0030;Platanenstr.;J0031;Universitätsklinikum;5;pink;Jena;Tram;1;bidirektional;internal;NA;pre 2020-11-30
-J0031;Universitätsklinikum;J0032;Richard-Sorge-Str.;5;pink;Jena;Tram;1;bidirektional;internal;NA;pre 2020-11-30
-J0032;Richard-Sorge-Str.;J0033;Schlegelstr.;5;pink;Jena;Tram;1;bidirektional;internal;NA;pre 2020-11-30
-J0033;Schlegelstr.;J0034;Lobeda-Ost;5;pink;Jena;Tram;1;bidirektional;internal;NA;pre 2020-11-30
-J0030;Platanenstr.;J0031;Universitätsklinikum;34;light brown;Jena;Tram;1;bidirektional;internal;NA;pre 2020-11-30
-J0031;Universitätsklinikum;J0032;Richard-Sorge-Str.;34;light brown;Jena;Tram;2;bidirektional;internal;NA;pre 2020-11-30
-J0032;Richard-Sorge-Str.;J0033;Schlegelstr.;34;light brown;Jena;Tram;2;bidirektional;internal;NA;pre 2020-11-30
-J0033;Schlegelstr.;J0034;Lobeda-Ost;34;light brown;Jena;Tram;2;bidirektional;internal;NA;pre 2020-11-30
-J0030;Platanenstr.;J0031;Universitätsklinikum;35;orange;Jena;Tram;2;bidirektional;internal;NA;pre 2020-11-30
-J0031;Universitätsklinikum;J0032;Richard-Sorge-Str.;35;orange;Jena;Tram;2;bidirektional;internal;NA;pre 2020-11-30
-J0032;Richard-Sorge-Str.;J0033;Schlegelstr.;35;orange;Jena;Tram;2;bidirektional;internal;NA;pre 2020-11-30
-J0033;Schlegelstr.;J0034;Lobeda-Ost;35;orange;Jena;Tram;2;bidirektional;internal;NA;pre 2020-11-30
-J0030;Platanenstr.;J0031;Universitätsklinikum;3;light pink;Jena;Tram;1;bidirektional;internal;NA;pre 2020-11-30
-J0031;Universitätsklinikum;J0032;Richard-Sorge-Str.;3;light pink;Jena;Tram;1;bidirektional;internal;NA;pre 2020-11-30
-J0032;Richard-Sorge-Str.;J0033;Schlegelstr.;3;light pink;Jena;Tram;1;bidirektional;internal;NA;pre 2020-11-30
-J0033;Schlegelstr.;J0034;Lobeda-Ost;3;light pink;Jena;Tram;1;bidirektional;internal;NA;pre 2020-11-30
-J0029;Lobeda;J0035;Emil-Wölk-Str.;4;red;Jena;Tram;1;bidirektional;internal;NA;pre 2020-11-30
-J0035;Emil-Wölk-Str.;J0036;Lobeda-West;4;red;Jena;Tram;1;bidirektional;internal;NA;pre 2020-11-30
-J0035;Emil-Wölk-Str.;J0030;Platanenstr.;35;orange;Jena;Tram;2;bidirektional;internal;NA;pre 2020-11-30
-J0035;Emil-Wölk-Str.;J0030;Platanenstr.;3;light pink;Jena;Tram;1;bidirektional;internal;NA;pre 2020-11-30
-J0036;Lobeda-West;J0035;Emil-Wölk-Str.;35;orange;Jena;Tram;2;bidirektional;internal;NA;pre 2020-11-30
-J0036;Lobeda-West;J0035;Emil-Wölk-Str.;3;light pink;Jena;Tram;1;bidirektional;internal;NA;pre 2020-11-30
-J0029;Lobeda;J0035;Emil-Wölk-Str.;34;light brown;Jena;Tram;2;bidirektional;internal;NA;pre 2020-11-30
-J0035;Emil-Wölk-Str.;J0036;Lobeda-West;34;light brown;Jena;Tram;2;bidirektional;internal;NA;pre 2020-11-30
-J0036;Lobeda-West;J0035;Emil-Wölk-Str.;34;light brown;Jena;Tram;2;bidirektional;internal;NA;pre 2020-11-30
-J0035;Emil-Wölk-Str.;J0030;Platanenstr.;34;light brown;Jena;Tram;2;bidirektional;internal;NA;pre 2020-11-30
-J0028;Burgaupark;J0037;Alte Burgauer Brücke;35;orange;Jena;Tram;2;bidirektional;internal;NA;pre 2020-11-30
-J0037;Alte Burgauer Brücke;J0038;Ernst-Ruska-Ring;35;orange;Jena;Tram;2;bidirektional;internal;NA;pre 2020-11-30
-J0038;Ernst-Ruska-Ring;J0039;Felsbachstr.;35;orange;Jena;Tram;2;bidirektional;internal;NA;pre 2020-11-30
-J0039;Felsbachstr.;J0040;Jenoptik;35;orange;Jena;Tram;2;bidirektional;internal;NA;pre 2020-11-30
-J0040;Jenoptik;J0041;Göschwitz, Bahnhof;35;orange;Jena;Tram;2;bidirektional;internal;NA;pre 2020-11-30
-J0041;Göschwitz, Bahnhof;J0036;Lobeda-West;35;orange;Jena;Tram;2;bidirektional;internal;NA;pre 2020-11-30
-J0028;Burgaupark;J0037;Alte Burgauer Brücke;1;yellow;Jena;Tram;1;bidirektional;internal;NA;pre 2020-11-30
-J0037;Alte Burgauer Brücke;J0038;Ernst-Ruska-Ring;1;yellow;Jena;Tram;1;bidirektional;internal;NA;pre 2020-11-30
-J0038;Ernst-Ruska-Ring;J0039;Felsbachstr.;1;yellow;Jena;Tram;1;bidirektional;internal;NA;pre 2020-11-30
-J0039;Felsbachstr.;J0040;Jenoptik;1;yellow;Jena;Tram;1;bidirektional;internal;NA;pre 2020-11-30
-J0040;Jenoptik;J0041;Göschwitz, Bahnhof;1;yellow;Jena;Tram;1;bidirektional;internal;NA;pre 2020-11-30
-J0041;Göschwitz, Bahnhof;J0036;Lobeda-West;1;yellow;Jena;Tram;1;bidirektional;internal;NA;pre 2020-11-30
-J0028;Burgaupark;J0037;Alte Burgauer Brücke;3;light pink;Jena;Tram;1;bidirektional;internal;NA;pre 2020-11-30
-J0037;Alte Burgauer Brücke;J0038;Ernst-Ruska-Ring;3;light pink;Jena;Tram;1;bidirektional;internal;NA;pre 2020-11-30
-J0038;Ernst-Ruska-Ring;J0039;Felsbachstr.;3;light pink;Jena;Tram;1;bidirektional;internal;NA;pre 2020-11-30
-J0039;Felsbachstr.;J0040;Jenoptik;3;light pink;Jena;Tram;1;bidirektional;internal;NA;pre 2020-11-30
-J0040;Jenoptik;J0041;Göschwitz, Bahnhof;3;light pink;Jena;Tram;1;bidirektional;internal;NA;pre 2020-11-30
-J0041;Göschwitz, Bahnhof;J0036;Lobeda-West;3;light pink;Jena;Tram;1;bidirektional;internal;NA;pre 2020-11-30
-J0024;Paradiesbahnhof West;J0042;Felsenkeller;2;brown;Jena;Tram;1;bidirektional;internal;NA;pre 2020-11-30
-J0042;Felsenkeller;J0043;Mühlenstr.;2;brown;Jena;Tram;1;bidirektional;internal;NA;pre 2020-11-30
-J0043;Mühlenstr.;J0044;Ringwiese;2;brown;Jena;Tram;1;bidirektional;internal;NA;pre 2020-11-30
-J0044;Ringwiese;J0045;Damaschkeweg;2;brown;Jena;Tram;1;bidirektional;internal;NA;pre 2020-11-30
-J0045;Damaschkeweg;J0046;Winzerla;2;brown;Jena;Tram;1;bidirektional;internal;NA;pre 2020-11-30
-J0024;Paradiesbahnhof West;J0042;Felsenkeller;34;light brown;Jena;Tram;2;bidirektional;internal;NA;pre 2020-11-30
-J0042;Felsenkeller;J0043;Mühlenstr.;34;light brown;Jena;Tram;2;bidirektional;internal;NA;pre 2020-11-30
-J0043;Mühlenstr.;J0044;Ringwiese;34;light brown;Jena;Tram;2;bidirektional;internal;NA;pre 2020-11-30
-J0044;Ringwiese;J0045;Damaschkeweg;34;light brown;Jena;Tram;2;bidirektional;internal;NA;pre 2020-11-30
-J0045;Damaschkeweg;J0046;Winzerla;34;light brown;Jena;Tram;2;bidirektional;internal;NA;pre 2020-11-30
-J0046;Winzerla;J0047;Freizeitbad;34;light brown;Jena;Tram;2;bidirektional;internal;NA;pre 2020-11-30
-J0047;Freizeitbad;J0028;Burgaupark;34;light brown;Jena;Tram;2;bidirektional;internal;NA;pre 2020-11-30
-J0046;Winzerla;J0047;Freizeitbad;3;light pink;Jena;Tram;1;bidirektional;internal;NA;pre 2020-11-30
-J0047;Freizeitbad;J0028;Burgaupark;3;light pink;Jena;Tram;1;bidirektional;internal;NA;pre 2020-11-30
 HH0001;Stade;HH0002;Agathenburg;S3;violet;Hamburg;S-Bahn;1;bidirektional;internal;NA;pre 2020-11-30
 HH0002;Agathenburg;HH0003;Dollern;S3;violet;Hamburg;S-Bahn;1;bidirektional;internal;NA;pre 2020-11-30
 HH0003;Dollern;HH0004;Horneburg;S3;violet;Hamburg;S-Bahn;1;bidirektional;internal;NA;pre 2020-11-30
@@ -4792,3 +4653,143 @@ BO0185;Holbeinstr.;BO0186;Hans-Böckler-Allee;107;red;Bochum/Gelsenkirchen;Tram;
 BO0186;Hans-Böckler-Allee;BO0187;Fürstinnenstr.;107;red;Bochum/Gelsenkirchen;Tram;1;bidirektional;cross border;Essen;2021-01-09
 BO0187;Fürstinnenstr.;BO0188;Revierpark Nienhausen;107;red;Bochum/Gelsenkirchen;Tram;1;bidirektional;cross border;Essen;2021-01-09
 BO0188;Revierpark Nienhausen;BO0189;Trabrennbahn;107;red;Bochum/Gelsenkirchen;Tram;1;bidirektional;cross border;Essen;2021-01-09
+J0001;Zwätzen, Schleife;J0002;Zwätzen;1;yellow;Jena;Tram;1;bidirektional;internal;NA;2021-01-30
+J0002;Zwätzen;J0003;Löbstedt;1;yellow;Jena;Tram;1;bidirektional;internal;NA;2021-01-30
+J0003;Löbstedt;J0004;Naumburger Str.;1;yellow;Jena;Tram;1;bidirektional;internal;NA;2021-01-30
+J0004;Naumburger Str.;J0005;Stifterstr.;1;yellow;Jena;Tram;1;bidirektional;internal;NA;2021-01-30
+J0005;Stifterstr.;J0006;Altenburger Str.;1;yellow;Jena;Tram;1;bidirektional;internal;NA;2021-01-30
+J0006;Altenburger Str.;J0007;An der Eule;1;yellow;Jena;Tram;1;bidirektional;internal;NA;2021-01-30
+J0007;An der Eule;J0008;Kieshügel;1;yellow;Jena;Tram;1;bidirektional;internal;NA;2021-01-30
+J0008;Kieshügel;J0009;Scharnhorststr.;1;yellow;Jena;Tram;1;bidirektional;internal;NA;2021-01-30
+J0009;Scharnhorststr.;J0010;Nordschule;1;yellow;Jena;Tram;1;bidirektional;internal;NA;2021-01-30
+J0010;Nordschule;J0011;Spittelplatz;1;yellow;Jena;Tram;1;bidirektional;internal;NA;2021-01-30
+J0011;Spittelplatz;J0012;Universität;1;yellow;Jena;Tram;1;bidirektional;internal;NA;2021-01-30
+J0012;Universität;J0013;Löbdergraben;1;yellow;Jena;Tram;1;bidirektional;internal;NA;2021-01-30
+J0013;Löbdergraben;J0023;Paradiesbahnhof;1;yellow;Jena;Tram;1;bidirektional;internal;NA;2021-01-30
+J0023;Paradiesbahnhof;J0025;Jenertal;1;yellow;Jena;Tram;1;bidirektional;internal;NA;2021-01-30
+J0025;Jenertal;J0026;Sportforum;1;yellow;Jena;Tram;1;bidirektional;internal;NA;2021-01-30
+J0026;Sportforum;J0027;Sparkassen Arena;1;yellow;Jena;Tram;1;bidirektional;internal;NA;2021-01-30
+J0027;Sparkassen Arena;J0028;Burgaupark;1;yellow;Jena;Tram;1;bidirektional;internal;NA;2021-01-30
+J0028;Burgaupark;J0029;Lobeda;1;yellow;Jena;Tram;1;bidirektional;internal;NA;2021-01-30
+J0028;Burgaupark;J0037;Alte Burgauer Brücke;1;yellow;Jena;Tram;1;bidirektional;internal;NA;2021-01-30
+J0037;Alte Burgauer Brücke;J0038;Ernst-Ruska-Ring;1;yellow;Jena;Tram;1;bidirektional;internal;NA;2021-01-30
+J0038;Ernst-Ruska-Ring;J0039;Felsbachstr.;1;yellow;Jena;Tram;1;bidirektional;internal;NA;2021-01-30
+J0039;Felsbachstr.;J0040;Jenoptik;1;yellow;Jena;Tram;1;bidirektional;internal;NA;2021-01-30
+J0040;Jenoptik;J0041;Göschwitz, Bahnhof;1;yellow;Jena;Tram;1;bidirektional;internal;NA;2021-01-30
+J0041;Göschwitz, Bahnhof;J0036;Lobeda-West;1;yellow;Jena;Tram;1;bidirektional;internal;NA;2021-01-30
+J0014;Jena-Ost;J0015;Löbichauer Str.;2;brown;Jena;Tram;1;bidirektional;internal;NA;2021-01-30
+J0015;Löbichauer Str.;J0016;An der Trebe;2;brown;Jena;Tram;1;bidirektional;internal;NA;2021-01-30
+J0016;An der Trebe;J0017;Jenzigweg;2;brown;Jena;Tram;1;bidirektional;internal;NA;2021-01-30
+J0017;Jenzigweg;J0018;Ostschule;2;brown;Jena;Tram;1;bidirektional;internal;NA;2021-01-30
+J0018;Ostschule;J0019;Schlippenstraße;2;brown;Jena;Tram;1;bidirektional;internal;NA;2021-01-30
+J0019;Schlippenstraße;J0020;Geschwister-Scholl-Str.;2;brown;Jena;Tram;1;bidirektional;internal;NA;2021-01-30
+J0020;Geschwister-Scholl-Str.;J0021;Steinweg;2;brown;Jena;Tram;1;bidirektional;internal;NA;2021-01-30
+J0021;Steinweg;J0013;Löbdergraben;2;brown;Jena;Tram;1;bidirektional;internal;NA;2021-01-30
+J0013;Löbdergraben;J0024;Paradiesbahnhof West;2;brown;Jena;Tram;1;bidirektional;internal;NA;2021-01-30
+J0024;Paradiesbahnhof West;J0042;Felsenkeller;2;brown;Jena;Tram;1;bidirektional;internal;NA;2021-01-30
+J0042;Felsenkeller;J0043;Mühlenstr.;2;brown;Jena;Tram;1;bidirektional;internal;NA;2021-01-30
+J0043;Mühlenstr.;J0044;Ringwiese;2;brown;Jena;Tram;1;bidirektional;internal;NA;2021-01-30
+J0044;Ringwiese;J0045;Damaschkeweg;2;brown;Jena;Tram;1;bidirektional;internal;NA;2021-01-30
+J0045;Damaschkeweg;J0046;Winzerla;2;brown;Jena;Tram;1;bidirektional;internal;NA;2021-01-30
+J0030;Platanenstr.;J0031;Universitätsklinikum;3;light pink;Jena;Tram;1;bidirektional;internal;NA;2021-01-30
+J0031;Universitätsklinikum;J0032;Richard-Sorge-Str.;3;light pink;Jena;Tram;1;bidirektional;internal;NA;2021-01-30
+J0032;Richard-Sorge-Str.;J0033;Schlegelstr.;3;light pink;Jena;Tram;1;bidirektional;internal;NA;2021-01-30
+J0033;Schlegelstr.;J0034;Lobeda-Ost;3;light pink;Jena;Tram;1;bidirektional;internal;NA;2021-01-30
+J0035;Emil-Wölk-Str.;J0030;Platanenstr.;3;light pink;Jena;Tram;1;bidirektional;internal;NA;2021-01-30
+J0036;Lobeda-West;J0035;Emil-Wölk-Str.;3;light pink;Jena;Tram;1;bidirektional;internal;NA;2021-01-30
+J0028;Burgaupark;J0037;Alte Burgauer Brücke;3;light pink;Jena;Tram;1;bidirektional;internal;NA;2021-01-30
+J0037;Alte Burgauer Brücke;J0038;Ernst-Ruska-Ring;3;light pink;Jena;Tram;1;bidirektional;internal;NA;2021-01-30
+J0038;Ernst-Ruska-Ring;J0039;Felsbachstr.;3;light pink;Jena;Tram;1;bidirektional;internal;NA;2021-01-30
+J0039;Felsbachstr.;J0040;Jenoptik;3;light pink;Jena;Tram;1;bidirektional;internal;NA;2021-01-30
+J0040;Jenoptik;J0041;Göschwitz, Bahnhof;3;light pink;Jena;Tram;1;bidirektional;internal;NA;2021-01-30
+J0041;Göschwitz, Bahnhof;J0036;Lobeda-West;3;light pink;Jena;Tram;1;bidirektional;internal;NA;2021-01-30
+J0046;Winzerla;J0047;Freizeitbad;3;light pink;Jena;Tram;1;bidirektional;internal;NA;2021-01-30
+J0047;Freizeitbad;J0028;Burgaupark;3;light pink;Jena;Tram;1;bidirektional;internal;NA;2021-01-30
+J0001;Zwätzen, Schleife;J0002;Zwätzen;4;red;Jena;Tram;1;bidirektional;internal;NA;2021-01-30
+J0002;Zwätzen;J0003;Löbstedt;4;red;Jena;Tram;1;bidirektional;internal;NA;2021-01-30
+J0003;Löbstedt;J0004;Naumburger Str.;4;red;Jena;Tram;1;bidirektional;internal;NA;2021-01-30
+J0004;Naumburger Str.;J0005;Stifterstr.;4;red;Jena;Tram;1;bidirektional;internal;NA;2021-01-30
+J0005;Stifterstr.;J0006;Altenburger Str.;4;red;Jena;Tram;1;bidirektional;internal;NA;2021-01-30
+J0006;Altenburger Str.;J0007;An der Eule;4;red;Jena;Tram;1;bidirektional;internal;NA;2021-01-30
+J0007;An der Eule;J0008;Kieshügel;4;red;Jena;Tram;1;bidirektional;internal;NA;2021-01-30
+J0008;Kieshügel;J0009;Scharnhorststr.;4;red;Jena;Tram;1;bidirektional;internal;NA;2021-01-30
+J0009;Scharnhorststr.;J0010;Nordschule;4;red;Jena;Tram;1;bidirektional;internal;NA;2021-01-30
+J0010;Nordschule;J0011;Spittelplatz;4;red;Jena;Tram;1;bidirektional;internal;NA;2021-01-30
+J0011;Spittelplatz;J0012;Universität;4;red;Jena;Tram;1;bidirektional;internal;NA;2021-01-30
+J0012;Universität;J0013;Löbdergraben;4;red;Jena;Tram;1;bidirektional;internal;NA;2021-01-30
+J0013;Löbdergraben;J0023;Paradiesbahnhof;4;red;Jena;Tram;1;bidirektional;internal;NA;2021-01-30
+J0023;Paradiesbahnhof;J0025;Jenertal;4;red;Jena;Tram;1;bidirektional;internal;NA;2021-01-30
+J0025;Jenertal;J0026;Sportforum;4;red;Jena;Tram;1;bidirektional;internal;NA;2021-01-30
+J0026;Sportforum;J0027;Sparkassen Arena;4;red;Jena;Tram;1;bidirektional;internal;NA;2021-01-30
+J0027;Sparkassen Arena;J0028;Burgaupark;4;red;Jena;Tram;1;bidirektional;internal;NA;2021-01-30
+J0029;Lobeda;J0035;Emil-Wölk-Str.;4;red;Jena;Tram;1;bidirektional;internal;NA;2021-01-30
+J0035;Emil-Wölk-Str.;J0036;Lobeda-West;4;red;Jena;Tram;1;bidirektional;internal;NA;2021-01-30
+J0022;Ernst-Abbe-Platz;J0048;Holzmarkt;5;pink;Jena;Tram;1;bidirektional;internal;NA;2021-01-30
+J0048;Holzmarkt;J0023;Paradiesbahnhof;5;pink;Jena;Tram;1;bidirektional;internal;NA;2021-01-30
+J0023;Paradiesbahnhof;J0025;Jenertal;5;pink;Jena;Tram;1;bidirektional;internal;NA;2021-01-30
+J0025;Jenertal;J0026;Sportforum;5;pink;Jena;Tram;1;bidirektional;internal;NA;2021-01-30
+J0026;Sportforum;J0027;Sparkassen Arena;5;pink;Jena;Tram;1;bidirektional;internal;NA;2021-01-30
+J0027;Sparkassen Arena;J0028;Burgaupark;5;pink;Jena;Tram;1;bidirektional;internal;NA;2021-01-30
+J0028;Burgaupark;J0029;Lobeda;5;pink;Jena;Tram;1;bidirektional;internal;NA;2021-01-30
+J0029;Lobeda;J0030;Platanenstr.;5;pink;Jena;Tram;1;bidirektional;internal;NA;2021-01-30
+J0030;Platanenstr.;J0031;Universitätsklinikum;5;pink;Jena;Tram;1;bidirektional;internal;NA;2021-01-30
+J0031;Universitätsklinikum;J0032;Richard-Sorge-Str.;5;pink;Jena;Tram;1;bidirektional;internal;NA;2021-01-30
+J0032;Richard-Sorge-Str.;J0033;Schlegelstr.;5;pink;Jena;Tram;1;bidirektional;internal;NA;2021-01-30
+J0033;Schlegelstr.;J0034;Lobeda-Ost;5;pink;Jena;Tram;1;bidirektional;internal;NA;2021-01-30
+J0014;Jena-Ost;J0015;Löbichauer Str.;33;dark yellow;Jena;Tram;2;bidirektional;internal;NA;2021-01-30
+J0015;Löbichauer Str.;J0016;An der Trebe;33;dark yellow;Jena;Tram;2;bidirektional;internal;NA;2021-01-30
+J0016;An der Trebe;J0017;Jenzigweg;33;dark yellow;Jena;Tram;2;bidirektional;internal;NA;2021-01-30
+J0017;Jenzigweg;J0018;Ostschule;33;dark yellow;Jena;Tram;2;bidirektional;internal;NA;2021-01-30
+J0018;Ostschule;J0019;Schlippenstraße;33;dark yellow;Jena;Tram;2;bidirektional;internal;NA;2021-01-30
+J0019;Schlippenstraße;J0020;Geschwister-Scholl-Str.;33;dark yellow;Jena;Tram;2;bidirektional;internal;NA;2021-01-30
+J0020;Geschwister-Scholl-Str.;J0021;Steinweg;33;dark yellow;Jena;Tram;2;bidirektional;internal;NA;2021-01-30
+J0021;Steinweg;J0013;Löbdergraben;33;dark yellow;Jena;Tram;2;bidirektional;internal;NA;2021-01-30
+J0048;Holzmarkt;J0048;Holzmarkt;33;dark yellow;Jena;Tram;2;bidirektional;internal;NA;2021-01-30
+J0022;Ernst-Abbe-Platz;J0013;Stadtzentrum;33;dark yellow;Jena;Tram;2;bidirektional;internal;NA;2021-01-30
+J0001;Zwätzen, Schleife;J0002;Zwätzen;34;light brown;Jena;Tram;2;bidirektional;internal;NA;2021-01-30
+J0002;Zwätzen;J0003;Löbstedt;34;light brown;Jena;Tram;2;bidirektional;internal;NA;2021-01-30
+J0003;Löbstedt;J0004;Naumburger Str.;34;light brown;Jena;Tram;2;bidirektional;internal;NA;2021-01-30
+J0004;Naumburger Str.;J0005;Stifterstr.;34;light brown;Jena;Tram;2;bidirektional;internal;NA;2021-01-30
+J0005;Stifterstr.;J0006;Altenburger Str.;34;light brown;Jena;Tram;2;bidirektional;internal;NA;2021-01-30
+J0006;Altenburger Str.;J0007;An der Eule;34;light brown;Jena;Tram;2;bidirektional;internal;NA;2021-01-30
+J0007;An der Eule;J0008;Kieshügel;34;light brown;Jena;Tram;2;bidirektional;internal;NA;2021-01-30
+J0008;Kieshügel;J0009;Scharnhorststr.;34;light brown;Jena;Tram;2;bidirektional;internal;NA;2021-01-30
+J0009;Scharnhorststr.;J0010;Nordschule;34;light brown;Jena;Tram;2;bidirektional;internal;NA;2021-01-30
+J0010;Nordschule;J0011;Spittelplatz;34;light brown;Jena;Tram;2;bidirektional;internal;NA;2021-01-30
+J0011;Spittelplatz;J0012;Universität;34;light brown;Jena;Tram;2;bidirektional;internal;NA;2021-01-30
+J0012;Universität;J0013;Löbdergraben;34;light brown;Jena;Tram;2;bidirektional;internal;NA;2021-01-30
+J0013;Löbdergraben;J0024;Paradiesbahnhof West;34;light brown;Jena;Tram;2;bidirektional;internal;NA;2021-01-30
+J0028;Burgaupark;J0029;Lobeda;34;light brown;Jena;Tram;2;bidirektional;internal;NA;2021-01-30
+J0030;Platanenstr.;J0031;Universitätsklinikum;34;light brown;Jena;Tram;1;bidirektional;internal;NA;2021-01-30
+J0031;Universitätsklinikum;J0032;Richard-Sorge-Str.;34;light brown;Jena;Tram;2;bidirektional;internal;NA;2021-01-30
+J0032;Richard-Sorge-Str.;J0033;Schlegelstr.;34;light brown;Jena;Tram;2;bidirektional;internal;NA;2021-01-30
+J0033;Schlegelstr.;J0034;Lobeda-Ost;34;light brown;Jena;Tram;2;bidirektional;internal;NA;2021-01-30
+J0029;Lobeda;J0035;Emil-Wölk-Str.;34;light brown;Jena;Tram;2;bidirektional;internal;NA;2021-01-30
+J0035;Emil-Wölk-Str.;J0036;Lobeda-West;34;light brown;Jena;Tram;2;bidirektional;internal;NA;2021-01-30
+J0036;Lobeda-West;J0035;Emil-Wölk-Str.;34;light brown;Jena;Tram;2;bidirektional;internal;NA;2021-01-30
+J0035;Emil-Wölk-Str.;J0030;Platanenstr.;34;light brown;Jena;Tram;2;bidirektional;internal;NA;2021-01-30
+J0024;Paradiesbahnhof West;J0042;Felsenkeller;34;light brown;Jena;Tram;2;bidirektional;internal;NA;2021-01-30
+J0042;Felsenkeller;J0043;Mühlenstr.;34;light brown;Jena;Tram;2;bidirektional;internal;NA;2021-01-30
+J0043;Mühlenstr.;J0044;Ringwiese;34;light brown;Jena;Tram;2;bidirektional;internal;NA;2021-01-30
+J0044;Ringwiese;J0045;Damaschkeweg;34;light brown;Jena;Tram;2;bidirektional;internal;NA;2021-01-30
+J0045;Damaschkeweg;J0046;Winzerla;34;light brown;Jena;Tram;2;bidirektional;internal;NA;2021-01-30
+J0046;Winzerla;J0047;Freizeitbad;34;light brown;Jena;Tram;2;bidirektional;internal;NA;2021-01-30
+J0047;Freizeitbad;J0028;Burgaupark;34;light brown;Jena;Tram;2;bidirektional;internal;NA;2021-01-30
+J0022;Ernst-Abbe-Platz;J0048;Holzmarkt;35;orange;Jena;Tram;2;bidirektional;internal;NA;2021-01-30
+J0048;Holzmarkt;J0023;Paradiesbahnhof;35;orange;Jena;Tram;2;bidirektional;internal;NA;2021-01-30
+J0023;Paradiesbahnhof;J0025;Jenertal;35;orange;Jena;Tram;2;bidirektional;internal;NA;2021-01-30
+J0025;Jenertal;J0026;Sportforum;35;orange;Jena;Tram;2;bidirektional;internal;NA;2021-01-30
+J0026;Sportforum;J0027;Sparkassen Arena;35;orange;Jena;Tram;2;bidirektional;internal;NA;2021-01-30
+J0027;Sparkassen Arena;J0028;Burgaupark;35;orange;Jena;Tram;2;bidirektional;internal;NA;2021-01-30
+J0030;Platanenstr.;J0031;Universitätsklinikum;35;orange;Jena;Tram;2;bidirektional;internal;NA;2021-01-30
+J0031;Universitätsklinikum;J0032;Richard-Sorge-Str.;35;orange;Jena;Tram;2;bidirektional;internal;NA;2021-01-30
+J0032;Richard-Sorge-Str.;J0033;Schlegelstr.;35;orange;Jena;Tram;2;bidirektional;internal;NA;2021-01-30
+J0033;Schlegelstr.;J0034;Lobeda-Ost;35;orange;Jena;Tram;2;bidirektional;internal;NA;2021-01-30
+J0035;Emil-Wölk-Str.;J0030;Platanenstr.;35;orange;Jena;Tram;2;bidirektional;internal;NA;2021-01-30
+J0036;Lobeda-West;J0035;Emil-Wölk-Str.;35;orange;Jena;Tram;2;bidirektional;internal;NA;2021-01-30
+J0028;Burgaupark;J0037;Alte Burgauer Brücke;35;orange;Jena;Tram;2;bidirektional;internal;NA;2021-01-30
+J0037;Alte Burgauer Brücke;J0038;Ernst-Ruska-Ring;35;orange;Jena;Tram;2;bidirektional;internal;NA;2021-01-30
+J0038;Ernst-Ruska-Ring;J0039;Felsbachstr.;35;orange;Jena;Tram;2;bidirektional;internal;NA;2021-01-30
+J0039;Felsbachstr.;J0040;Jenoptik;35;orange;Jena;Tram;2;bidirektional;internal;NA;2021-01-30
+J0040;Jenoptik;J0041;Göschwitz, Bahnhof;35;orange;Jena;Tram;2;bidirektional;internal;NA;2021-01-30
+J0041;Göschwitz, Bahnhof;J0036;Lobeda-West;35;orange;Jena;Tram;2;bidirektional;internal;NA;2021-01-30
