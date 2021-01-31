@@ -4,6 +4,6 @@ This coding project aims at identifying the local railway transportation network
 
 The project is available as RMarkdown-notebook (.Rmd). It is a bit tricky to get these displayed properly on github. It can be viewed as html by clicking this link:
 
-https://wtdat-rep.github.io/nvn/nvnv01.html
+https://wtdat-rep.github.io/nvn/nvn_main_v01.html
 
 The data on the railway networks are collected manually and will be expanded in the future. This is a functional first release with a still incomplete data basis and preliminary findings.
