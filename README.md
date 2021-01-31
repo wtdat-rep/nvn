@@ -6,4 +6,4 @@ The project is available as RMarkdown-notebook (.Rmd). It is a bit tricky to get
 
 https://wtdat-rep.github.io/nvn/nvn_main_v01.html
 
-The data on the railway networks are collected manually and will be expanded in the future. This is a functional first release with a still incomplete data basis and preliminary findings.
+The data on the railway networks are collected manually and will be completed in the future. This is a functional first release with a still incomplete data basis and preliminary findings.
