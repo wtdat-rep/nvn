@@ -455,7 +455,6 @@ nvn.weightedCutOffs <- function(list, col1 = "Weight", col2 = "cut.offRel"){
 Now all the pieces are in place to run the main calculation. First, a data frame containing the data on the cut-offs for each network is created and saved into a list. In the next step the cut offs are weighted. The resulting data frames for each network look like the example in the table below. 
 
 ```{r main analysis, eval=TRUE, echo=TRUE, results = 'hide'}
-# **CHANGE THE eval = ... between the two - run import for dev, but the real deal for publication**
 
 # Run nvn.bridgeImpact for all network objects and save the results
 list.results <- nvn.getBridgeImpact(list.edges.undirected, list.nets)
@@ -468,6 +467,8 @@ list.results <- nvn.weightedCutOffs(list.results, col1 = "bCO")
 
 ```{r temp import, eval=FALSE, echo=FALSE}
 # Hidden in published notebook. Use only when troubleshooting.
+# **CHANGE THE eval = ... between the two - run import for dev, but the real deal for publication**
+
 nvn.importListResults <- function(input_dir = "data/", input_file = "list.results[",
                                    num = 7, ending = "].csv"){
        
@@ -493,7 +494,7 @@ list.results <- nvn.weightedCutOffs(list.results, col1 = "bCO")
 knitr::kable(head(list.results[[1]]), format = "html") %>% kable_styling(full_width = FALSE)
 ```
 
-At this point, the main calculations are done and the question of the vulnurability of local railway networks could be answered. But that would be boring and ugly, at least at this point. In order to compare the city networks, I want to do two things: firstly, the results will be shown in a simple table, since this is the most concise and comprehensive way to compare things. Secondly, I want to show each network as a graph together with information about the network and on its top n most critical edges. When I do this, I also want to provide an easy way of displaying the critical edges by coloring them. Additionally, I want to display the proper names of the stations, because they will not be recognisable by their ID's only. In short, some more coding is needed. Let's get to it.
+At this point, the main calculations are done and the question of the vulnerability of local railway networks could be answered. But that would be boring and ugly, at least at this point. In order to compare the city networks, I want to do two things: firstly, the results will be shown in a simple table, since this is the most concise and comprehensive way to compare things. Secondly, I want to show each network as a graph together with information about the network and on its top n most critical edges. When I do this, I also want to provide an easy way of displaying the critical edges by coloring them. Additionally, I want to display the proper names of the stations, because they will not be recognisable by their ID's only. In short, some more coding is needed. Let's get to it.
 
 # Preperation for presentation
 
@@ -554,7 +555,7 @@ With this code, the table for the results is ready. It will be shown in the next
 
 The preperations for the display of the network graph with additional information are a bit more extensive. Since this will be done for each individual network, the following functions are designed to work with my list-objects. They will loop through them and gather information on the top n edges and on the real world names of the stations. Also, I need some code for the visualization of the graph and its colorization. In the end, I am putting all the functions in a loop for procedural display of the results for all networks contained in my list-objects. This might not be the most elegant approach, but it gets the job done and makes the addition of new networks effortless.  
 
-The following function defines the colors for the most vulnerable edges of a network. I decided to base this decision on the distribution of the weight based on betweeness-centrality of the two nodes of a given edge. The coloring scheme encompases 7 steps of colors ranging from yellow to dark red. Each step has the width of one standard deviation. Since the coloring shall show only vulnurabilites, every edge below the mean of the distribution will be simply grey. This way it should be obvious to the eye where the problematic edges lie in the network. The drawback to this solution is that even the most robust networks will have some edges in warning colors. 
+The following function defines the colors for the most vulnerable edges of a network. I decided to base this decision on the distribution of the weight based on betweeness-centrality of the two nodes of a given edge. The coloring scheme encompases 7 steps of colors ranging from yellow to dark red. Each step has the width of one standard deviation. Since the coloring shall show only vulnerabilites, every edge below the mean of the distribution will be simply grey. This way it should be obvious to the eye where the problematic edges lie in the network. The drawback to this solution is that even the most robust networks will have some edges in warning colors. 
 
 ```{r color gradient}
 nvn.makeColGradient <- function(vec){
@@ -662,7 +663,7 @@ nvn.lookUpNames <- function(df, listindex, mode = "add", trunc_by = 20){
 }
 ```
 
-As a last prearrangement, I wrote two functions for sorting my list-objects. Since the sorting shall be a ranking that reflects the vulnurability of the networks, it can only be implemented after results are known. At this point, the table *df.summary* is already sorted by the coefficient *wCO*, while the list-objects are still in their original order. The two functions below create a sort index based on *df.summary* and apply it to all relevant objects. As a result, the networks can now be presented from the worst to be best (in terms of vulnurability).
+As a last prearrangement, I wrote two functions for sorting my list-objects. Since the sorting shall be a ranking that reflects the vulnerability of the networks, it can only be implemented after results are known. At this point, the table *df.summary* is already sorted by the coefficient *wCO*, while the list-objects are still in their original order. The two functions below create a sort index based on *df.summary* and apply it to all relevant objects. As a result, the networks can now be presented from the worst to be best (in terms of vulnerability).
 
 ```{r - sloppy pasted code}
 ## nvn.sortIndex
@@ -908,8 +909,8 @@ for(i in which(df.summary$City == 'Hannover')){
 
 What can we see here?
 
-1. **The Caption** (top left corner): The name of the city and it's rank according to the coefficient *wCO* is displayed. The higher the rank, the higher the vulnurability of the railway network of the city.
-2. **The Network Graph** (left side): The railway network of the city as a network graph. Nodes (stations) are respresented by dots, railways between the stations as lines between the dots. ID's and names of the stations are not displayed to avoid clutter. The connections with the highest vulnurability are colored.
+1. **The Caption** (top left corner): The name of the city and it's rank according to the coefficient *wCO* is displayed. The higher the rank, the higher the vulnerability of the railway network of the city.
+2. **The Network Graph** (left side): The railway network of the city as a network graph. Nodes (stations) are respresented by dots, railways between the stations as lines between the dots. ID's and names of the stations are not displayed to avoid clutter. The connections with the highest vulnerability are colored.
        a) As a rule of thumb it can be said, that colored edges in the center of the network are more problematic than on its periphery. Severed parts of the network become practically unavoidable closer to the fringe. In the case of Hannover, the most vulnerable parts of the network are at its very center and around it. This is bad, since this drastically decreases the networks ability to cope with stress.
        b) Note that only connections between the nodes (the dots in the picture) count. Edges, that are crossing other edges, are meaningless. They are just a random by-product of the network vizualization algorithm.
 3. **The Tiles** (top right corner): The tiles highlight several measures key to understanding the network.
@@ -920,7 +921,7 @@ What can we see here?
               - In the case of Hannover, the highest value of *CO* equals `r as.numeric(df.summary[df.summary$City == 'Hannover',8])`, which is a very high value. A look at *Network Size* confirms, that a substantial part (`r as.numeric(df.summary[df.summary$City == 'Hannover',5])` out of `r as.numeric(df.summary[df.summary$City == 'Hannover',3])` nodes) of the railway network can be cut off by a single edge.
        d) *CO mean* displays the average value of *CO* for the network. A higher value can indicate a higher number of problematic edges.
        e) *wCO max* is the largest value for the second coefficient for this network.
-              - As a reminder: *wCO* is calculated by multiplying *CO* with the measure *bCO*, which is based on the in-betweenness centrality of the two nodes for a given edge. *wCO* is more sensitive to the interruption of important edges that to interruptions in the outer parts of the network. A higher value indicates central vulnurability. Note that that values of *wCO* are pretty low in general and that *wCO* has no fixed value range like *CO* has. In the case of Hannover, the value of `r as.numeric(df.summary[df.summary$City == 'Hannover',11])` is among the highest in the whole data set and indicates central vulnurability of the network.
+              - As a reminder: *wCO* is calculated by multiplying *CO* with the measure *bCO*, which is based on the in-betweenness centrality of the two nodes for a given edge. *wCO* is more sensitive to the interruption of important edges that to interruptions in the outer parts of the network. A higher value indicates central vulnerability. Note that that values of *wCO* are pretty low in general and that *wCO* has no fixed value range like *CO* has. In the case of Hannover, the value of `r as.numeric(df.summary[df.summary$City == 'Hannover',11])` is among the highest in the whole data set and indicates central vulnerability of the network.
        f) Finally, *wCO mean* displays the average value of *wCO* for the network. A higher value can indicate a higher number of problematic edges.
 4. **The Tables** (right side): In this area I show the top 5 edges for the two coefficients. The edges are represented by the two stations of the edge. "Source" and "Target" are just labels and can be interchanged. The most vulnerable edges are mostly identical for both coefficients but there are differences. Keep in mind, that *CO* is only sensible to the raw number of cut-off edges, while *wCO* factors in the centrality of the edge.
 
@@ -928,31 +929,31 @@ This is the dashboard-style format I have chosen for the presentation of the res
 
 # Results
 
-Everything is in place now. My sample is still incomplete, but lets have a look. First, the tabular form of the results:
+Everything is in place now. My sample is still incomplete, but lets have a look. First, the tabular form of the results. Cities are being ranked by the value of *wCO*. The size of the networks and the parts that are cut off are measured in the number of nodes contained within them. The table also shows the mean and maximum values for both of the coefficients and their standard deviations.
 
 ```{r table, echo=FALSE}
 df.summary <- df.results %>% 
        group_by(City) %>% 
        summarise(network.size = max(c1.size),
-              c2.size_mean = mean(c2.size),
-              c2.size_max = max(c2.size),
-              CO_mean = mean(cut.offRel),
-              CO_sd = sd(cut.offRel),
-              CO_max = max(cut.offRel),
-              wCO_mean = mean(weightedCutOff),
-              wCO_sd = sd(weightedCutOff),
-              wCO_max = max(weightedCutOff)) %>% 
-       arrange(desc(wCO_mean)) %>% 
+              mean.cut.off = mean(c2.size),
+              max.cut.off = max(c2.size),
+              mean.CO = mean(cut.offRel),
+              sd.CO = sd(cut.offRel),
+              max.CO = max(cut.offRel),
+              mean.wCO = mean(weightedCutOff),
+              sd.wCO = sd(weightedCutOff),
+              max.wCO = max(weightedCutOff)) %>% 
+       arrange(desc(mean.wCO)) %>% 
        add_column(. , Rank = 1:nrow(.), .before = "City")
 
 df.summary <- nvn.round_df(df.summary, 4)
 
-knitr::kable(df.summary, format = "html") %>% kable_styling(full_width = FALSE)
+knitr::kable(df.summary, format = "html", col.names = gsub("[.]", " ", names(df.summary))) %>% kable_styling(full_width = FALSE)
 ```
 
-The higher the rank, the higher the vulnurability of the network. The current champion of vulnurability is the city of Potsdam. The result matches my real world knowledge of the place. The most probelmatic edge in the network is close to a single (and quite steep) bridge right next to the main station. If something happens there, the city will be split into two (in terms of public transportation). The city I was being in late for work ranks also quiete high, but not as high as I would have expected.
+The higher the rank, the higher the vulnerability of the network. The current champion of vulnerability is the city of Potsdam. The result matches my real world knowledge of the place. The most probelmatic edge in the network is close to a single (and quite steep) bridge right next to the main station. If something happens there, the city will be split into two (in terms of public transportation). The city I was being in late for work ranks also quiete high, but not as high as I would have expected.
 
-Now, the more detailed results for the networks, ranked by vulnurability.
+Now, the more detailed results for the networks, ranked by vulnerability.
 
 ```{r - network display (the real deal), echo=FALSE, fig.width = 12}
 for(i in seq_along(list.results)){
@@ -1044,7 +1045,7 @@ for(i in seq_along(list.results)){
 
 At the moment the data are still incomplete (at this point I have 13 out of 80 cities covered; 13 because the two cities of Bochum and Gelsenkirchen share a network). I will add them in the future the achieve a more accurate understanding. It is quite possible, that there a correlations between the size of the cities/networks and the robustnessness of the networks. But in order to investigate this any further, I am going to need more data.
 
-Another issues that will probably arise is indicated by the network of Halle and Bochum/Gelsenkirchen. They are in fact two city-networks connected by a thin line (Halle is connected to neighboring Merseburg), which somewhat artificially increases their vulnurability. I might have to adress this issue more spohisticated measures. The coefficient *wCO* is designed to deal with this problem, but it is clearly insufficient in its current state. 
+Another issues that will probably arise is indicated by the network of Halle and Bochum/Gelsenkirchen. They are in fact two city-networks connected by a thin line (Halle is connected to neighboring Merseburg), which somewhat artificially increases their vulnerability. I might have to adress this issue more spohisticated measures. The coefficient *wCO* is designed to deal with this problem, but it is clearly insufficient in its current state. 
 
 This is the first release of this project in the spirit of a minimum vialble product. I intend to add data and to pursue it further in the future.
 
