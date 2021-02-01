@@ -111,7 +111,7 @@ A similar problem arose with regional trains (RB - "Regionalbahn"). My data sour
 Working on this project often proved challenging, but also rewarding and surprisingly insightful. I learned a great deal about cities I have never seen before, just by gathering my data. Perhaps my most favourite of these secondary insights is, that Berlin has a Tram network - but only in one half of the city. This is of course rooted in the German division during the later half of the 20th century. There is a well known satellite foto from NASA astronaut Chris Hadfield, in which the former division of the city is still visible during night time. East Berlin used different light bulbs than West Berlin. It turns out that I now can make my own version of this, because while the Tram was abolished by West Berlin during the 1970s, it remained in East Berlin and does so until the present.
 
 
-```{r bilder, echo=FALSE,out.width="49%", out.height="20%",fig.cap="Right picture: NASA / Chris Hadfield, left picture: my version with connections serviced by trams in red. ",fig.show="hold",fig.align="center"}
+```{r bilder, echo=FALSE,out.width="49%", out.height="20%",fig.cap="Left side: NASA / Chris Hadfield. Right side: my version with connections serviced by trams in red. ",fig.show="hold",fig.align="center"}
 
 knitr::include_graphics(c("images/Berlin_divided_satelitefoto_nasa_chris_hadfield.jpeg","images/Berlin_divided_Tram.png"))
 
